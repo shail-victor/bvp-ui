@@ -1,0 +1,466 @@
+[
+    {
+        "id": 1,
+        "questionid": "3_1_1",
+        "question": "The institution Research facilities are frequently updated and there is well defined policy for promotion of research which is uploaded on the institutional website and implemented",
+        "greenText": "<b>Documents Required</b>: facility updation document, Geotag photo.",
+        "redText": "",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the Research facility updated", "field": "Name_of_Research_facility", "width": 540, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Use of Research facility", "field": "Use_of_Research_facility", "width": 540, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "Name_of_Research_facility": "", "Use_of_Research_facility": ""}
+    },
+    {
+        "id": 2,
+        "questionid": "3_1_2",
+        "question": "The institution provides seed money to its teachers for research (average per year INR in Lakhs) Only formal research project seed money will be considered.",
+        "greenText": "<b>Documents Required</b>: List of faculty who have been provided with seed money for research along with the title of the project, duration and amount year-wise.<br><ul><li>Sanction letters of seed money to the teachers is mandatory.</li><li>Audited Income-Expenditure statement highlighting the relevant expenditure endorsed by the Finance Officer indicating the seed money</li></ul>",
+        "redText": "Grants for other than research projects are not to be considered<br><ul><li>Sponsorship to conferences / seminars etc are not to be considered.</li><li>Grants received from outside agencies for research are not to be included.</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the teacher provided with seed money", "field": "teacher_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "The amount of seed money ( INR in Lakhs)", "field": "seed_money", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of receiving", "field": "Year_of_receiving", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Link to the policy document for Sanction of seed money / grants for research from the institution", "field": "Link_policy_document", "width": 650, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Title of the project", "field": "project_title", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Duration of project (Years)", "field": "project_duration", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "teacher_name": "", "seed_money": "", "Year_of_receiving": "", "Link_policy_document": "", "project_title": "", "project_duration": ""}
+    },
+    {
+        "id": 3,
+        "questionid": "3_1_3",
+        "question": "Number of teachers receiving national/ international fellowship/financial support by various agencies for advanced studies/ research  during the year.",
+        "greenText": "<b>Documents Required</b>: award letters of the teachers, Photo",
+        "redText": "Awards without any financial support are not to be included (E.g: Best Teacher Award, Certificate of Appreciation).",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the teacher awarded national/ international fellowship/financial support", "field": "awarded_teacher_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the award/fellowship", "field": "award_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of Award", "field": "Year_of_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Awarding Agency", "field": "Awarding_agency", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "awarded_teacher_name": "", "award_name": "", "Year_of_award": "", "Awarding_agency": ""}
+    },
+    {
+        "id": 4,
+        "questionid": "3_1_4",
+        "question": "Number of JRFs, SRFs, Post Doctoral Fellows, Research Associates and other research fellows enrolled in the institution during the year.",
+        "greenText": "<b>Documents Required</b>: fellowship award letters",
+        "redText": "Research fellowships to the teachers/students/research assistants etc given by the HEI will not be considered.",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of Research fellow", "field": "Research_fellow_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of enrolment", "field": "Year_of_enrolement", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Duration of fellowship", "field": "Duration_of_fellowship", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Type of  the fellowship", "field": "Type_of_fellowship", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Granting/Funding agency", "field": "Funding_agency", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Qualifying exam if any (NET, GATE,  etc.)", "field": "qualifying_exam", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "Research_fellow_name": "", "Year_of_enrolement": "", "Duration_of_fellowship": "", "Type_of_fellowship": "", "Funding_agency": "", "qualifying_exam": ""}
+    },
+    {
+        "id": 5,
+        "questionid": "3_1_5",
+        "question": "Institution has the following facilities to support research.",
+        "greenText": "",
+        "redText": "<b>Documents Required</b>: Videos and geo-tagged photographs of each of the facilities available in the HEI.<ul><li>Details of the structures of each of the facilities available in the HEI.</li><li>Copy of the subscription letter for database is essential for Option 6 (Research/Statistical Databases).</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the facility (Central Instrumentation Centre/Animal House/Green House/Museum/Media laboratory/Studios/Business Lab/Research/Statistical Databases/Mootcourt/Theatre/Art Gallery)", "field": "name_of_facility", "width": 700, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of establishment", "field": "Year_of_establishment", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "name_of_facility": "", "Year_of_establishment": ""}
+    },
+    {
+        "id": 6,
+        "questionid": "3_1_6",
+        "question": "Number of departments with UGC-SAP, CAS, DST-FIST, DBT, ICSSR  and other recognitions by national and international  agencies during the year.",
+        "greenText": "<b>Documents Required</b>: recognition of departments /grant award letters from central / state government agencies and other recognitions by national and international agencies,  letters of award for research, endowments, Chairs sponsored by non-government sources, grant award letters for research projects sponsored by government agencies",
+        "redText": "Grants given by their own trust / sister institutions are not to be included.<ul><li>Projects sanctioned to individual researchers / teachers etc., are not to be included;  Grants in the form of Equipments / software / skill development centres will not be considered.</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the Scheme/Project/ Endowments/ Chairs", "field": "name_of_scheme", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Principal Investigator/ Co Investigator (if applicable)", "field": "name_of_principal_investigator", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Funding agency", "field": "name_of_funding_agency", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Type (Government/Non-Government)", "field": "type", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Department of  Investigator/ recipient", "field": "department_of_investigator", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of Award", "field": "Year_of_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Funds provided (INR in lakhs)", "field": "funds_provided", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Duration of the project", "field": "duration_of_project", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "name_of_scheme": "", "name_of_principal_investigator": "", "name_of_funding_agency": "", "type": "", "department_of_investigator": "", "Year_of_award": "", "funds_provided": "", "duration_of_project": ""}
+    },
+    {
+        "id": 7,
+        "questionid": "3_2_1",
+        "question": "Extramural funding for Research (Grants sponsored by the non-government sources such as industry, corporate houses, international bodies for research projects) endowments, Chairs in the University during the year(INR in Lakhs).",
+        "greenText": "<b>Documents Required</b>: recognition of departments /grant award letters from central / state government agencies and other recognitions by national and international agencies,  letters of award for research, endowments, Chairs sponsored by non-government sources, grant award letters for research projects sponsored by government agencies",
+        "redText": "Grants given by their own trust / sister institutions are not to be included.<ul><li>Projects sanctioned to individual researchers / teachers etc., are not to be included;  Grants in the form of Equipments / software / skill development centres will not be considered.</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the Scheme/Project/ Endowments/ Chairs", "field": "name_of_scheme", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Principal Investigator/ Co Investigator (if applicable)", "field": "name_of_principal_investigator", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Funding agency", "field": "name_of_funding_agency", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Type (Government/Non-Government)", "field": "type", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Department of  Investigator/ recipient", "field": "department_of_investigator", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of Award", "field": "Year_of_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Funds provided (INR in lakhs)", "field": "funds_provided", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Duration of the project", "field": "duration_of_project", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "name_of_scheme": "", "name_of_principal_investigator": "", "name_of_funding_agency": "", "type": "", "department_of_investigator": "", "Year_of_award": "", "funds_provided": "", "duration_of_project": ""}
+    },
+    {
+        "id": 8,
+        "questionid": "3_2_2",
+        "question": "Grants  for research projects sponsored by the government agencies during the year (INR in Lakhs).",
+        "greenText": "<b>Documents Required</b>: recognition of departments /grant award letters from central / state government agencies and other recognitions by national and international agencies,  letters of award for research, endowments, Chairs sponsored by non-government sources, grant award letters for research projects sponsored by government agencies",
+        "redText": "Grants given by their own trust / sister institutions are not to be included.<ul><li>Projects sanctioned to individual researchers / teachers etc., are not to be included;  Grants in the form of Equipments / software / skill development centres will not be considered.</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the Scheme/Project/ Endowments/ Chairs", "field": "name_of_scheme", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Principal Investigator/ Co Investigator (if applicable)", "field": "name_of_principal_investigator", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Funding agency", "field": "name_of_funding_agency", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Type (Government/Non-Government)", "field": "type", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Department of  Investigator/ recipient", "field": "department_of_investigator", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of Award", "field": "Year_of_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Funds provided (INR in lakhs)", "field": "funds_provided", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Duration of the project", "field": "duration_of_project", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "name_of_scheme": "", "name_of_principal_investigator": "", "name_of_funding_agency": "", "type": "", "department_of_investigator": "", "Year_of_award": "", "funds_provided": "", "duration_of_project": ""}
+    },
+    {
+        "id": 9,
+        "questionid": "3_2_3",
+        "question": "Number of research projects per teacher funded by government and  non-government agencies during the year.",
+        "greenText": "<b>Documents Required</b>: recognition of departments /grant award letters from central / state government agencies and other recognitions by national and international agencies,  letters of award for research, endowments, Chairs sponsored by non-government sources, grant award letters for research projects sponsored by government agencies",
+        "redText": "Grants given by their own trust / sister institutions are not to be included.<ul><li>Projects sanctioned to individual researchers / teachers etc., are not to be included;  Grants in the form of Equipments / software / skill development centres will not be considered.</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the Scheme/Project/ Endowments/ Chairs", "field": "name_of_scheme", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Principal Investigator/ Co Investigator (if applicable)", "field": "name_of_principal_investigator", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Funding agency", "field": "name_of_funding_agency", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Type (Government/Non-Government)", "field": "type", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Department of  Investigator/ recipient", "field": "department_of_investigator", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of Award", "field": "Year_of_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Funds provided (INR in lakhs)", "field": "funds_provided", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Duration of the project", "field": "duration_of_project", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "name_of_scheme": "", "name_of_principal_investigator": "", "name_of_funding_agency": "", "type": "", "department_of_investigator": "", "Year_of_award": "", "funds_provided": "", "duration_of_project": ""}
+    },
+    {
+        "id": 10,
+        "questionid": "3_3_1",
+        "question": "Institution has created an eco-system for innovations including Incubation centre and other initiatives for creation and transfer of knowledge.",
+        "greenText": "<b>Documents Required</b>: Photo, Usage proof.",
+        "redText": "",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the Incubation centre", "field": "incubation_centre_name", "width": 540, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Describe available incubation centre and evidence of its usage (activity) within 50 words .", "field": "discription", "width": 540, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "incubation_centre_name": "", "discription": ""}
+    },
+    {
+        "id": 11,
+        "questionid": "3_3_2",
+        "question": "Number of workshops/seminars conducted on Research methodology, Intellectual Property Rights (IPR),entrepreneurship, skill development during the year. <br>11.1 Total number of workshops/seminars conducted on Research methodology, Intellectual Property Rights (IPR),entrepreneurship, skill development year wise during  the year.",
+        "greenText": "<b>Documents Required</b>: Detailed report for each program.<ul><li>Brochure/Geo-tagged Photograph with date and captions; title of the workshops / seminars conducted.</li><li>Details of resource persons.</li></ul>",
+        "redText": "Only activities with a bearing on Research methodology, Intellectual Property Rights (IPR), entrepreneurship and skill development are to be considered here.",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Year", "field": "year", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the workshop/ seminar", "field": "workshop_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Number of Participants", "field": "participants_number", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Date From – To (DD/MM/YYYY)", "field": "date_from_to", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text", "resizable": true, "cellEditor": "DatepickerComponent"},
+            {"headerName": "Link to the Activity report on the website", "field": "activity_report_url", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Date of establishment of IPR cell", "field": "date_of_establishment", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "year": "", "workshop_name": "", "participants_number": "", "date_from_to": "", "activity_report_url": "", "date_of_establishment": ""}
+    },
+    {
+        "id": 12,
+        "questionid": "3_3_3",
+        "question": "Number of awards / recognitions received for research/innovations  by the institution/teachers/research scholars/students during the year.<br>12.1 Total number of awards / recognitions received for research/ innovations  won by institution/teachers/research scholars/students year wise during the year.",
+        "greenText": "<b>Documents Required</b>: award letters issued by the awarding agency., Photo",
+        "redText": "Participation / presentation certificates in workshops / conferences etc., are not to be included.<ul><li>Awards claimed in 2.4.4 not to be claimed here.</li><li>Patents not to be included here.</li>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Title of the innovation", "field": "title_of_innovation", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Awardee", "field": "awardee_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Awarding Agency with contact details", "field": "awarding_agency_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of Award", "field": "year_of_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Category - institution/ teacher / research scholar / student", "field": "category", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "title_of_innovation": "", "awardee_name": "", "awarding_agency_name": "", "year_of_award": "", "category": ""}
+    },
+    {
+        "id": 13,
+        "questionid": "3_4_1",
+        "question": "The institution ensures implementation of its stated Code of Ethics for research.<br>13.1 The institution has a stated Code of Ethics for research and the implementation of which is ensured through the following:<ul><li>Inclusion of research ethics in the research methodology course work </li><li>Presence of institutional Ethics committees (Animal, chemical,bio-ethics etc)</li><li>Plagiarism check</li><li>Research Advisory Committee</li></ul>",
+        "greenText": "<b>Documents Required</b>: Copy of the syllabus of the research methodology course work to indicate if research ethics is included.<ul><li>Constitution of the ethics committee and its proceedings as approved by the appropriate body; . Constitution of research advisory committee and its proceedings as approved by the appropriate body.</li><li>Bills of purchase of licensed plagiarism check software in the name of the HEI.</li><li>Report of research content checked through licensed plagiarism check software.</li></ul>",
+        "redText": "",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name the Code of Ethics followed (course work / Ethics committees / Plagiarism check / Research Advisory Committee)", "field": "name_of_code_of_Ethics", "width": 540, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Web link on the institutional website where Code of Ethics for research is hosted.", "field": "hosted_weblink", "width": 540, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "name_of_code_of_Ethics": "", "hosted_weblink": ""}
+    },
+    {
+        "id": 14,
+        "questionid": "3_4_2",
+        "question": "The institution provides incentives to teachers who receive state, national and international recognitions/awards.<ul><li>Commendation and monetary incentive at a University function</li><li>Commendation and medal at a University function</li><li>Certificate of honor</li><li>Announcement in the Newsletter / website</li></ul>",
+        "greenText": "<b>Documents Required</b>: Policy document detailing scheme of incentives as approved by the appropriate body.<ul><li>E-copies of the letters of incentives, certificate of honors granted by the university to the beneficiary.; Ranges from Study leave to monetary and promotional benefits</li></ul>",
+        "redText": "",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of full time  teachers receiving awards from state level, national level, international level", "field": "full_time_teachers_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of Award", "field": "year_of_award", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "PAN", "field": "pan", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Designation", "field": "designation", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the award, fellowship, received from Government or Government recognised bodies", "field": "name_of_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Awarding Agency", "field": "awarding_agency_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Incentives/Type of the incentive given by the HEI in recognition of the award", "field": "type_of_incentive", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Link to the relevant documents", "field": "relevant_document_url", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "full_time_teachers_name": "", "year_of_award": "", "pan": "", "designation": "", "name_of_award": "", "awarding_agency_name": "", "type_of_incentive": "", "relevant_document_url": ""}
+    },
+    {
+        "id": 15,
+        "questionid": "3_4_3",
+        "question": "Number of  Patents published/awarded during the year.<br>15.1 Total number of  Patents published/awarded year wise during the year.",
+        "greenText": "<b>Documents Required</b>: letters of awards of patents and patent number which can be cross-verified. Current status",
+        "redText": "Only awarded / published patents to be considered, Patents awarded / published in the name of faculty working in the University during the assessment period only to be considered, Mere submission of application for the patent will not be considered",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the Patenter", "field": "patenter_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Patent Number", "field": "patent_number", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Title of the patent", "field": "patent_title", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of Award of patent", "field": "year_of_patent_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "patenter_name": "", "patent_number": "", "patent_title": "", "year_of_patent_award": ""}
+    },
+    {
+        "id": 16,
+        "questionid": "3_4_4",
+        "question": "Number  of Ph.D.s awarded per teacher during the year.",
+        "greenText": "<b>Documents Required</b>: PhD Award letters to PhD students.<ul><li>Letter from the university indicating name of the PhD student with title of the doctoral study and the name of the guide.</li><li>Co-guides are also considered</li><li>Ph.D s awarded by other university/institutions are also considered</li></ul>",
+        "redText": "Ph.D’s awarded (not-ongoing) under every eligible research guide working as faculty in the institution should be considered",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the PhD scholar", "field": "phd_scholar_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Department", "field": "department", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the guide/s", "field": "guide", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Title of the thesis", "field": "title_of_thesis", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of registration of the scholar", "field": "year_of_registration", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of award of PhD", "field": "year_of_phd_award", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "phd_scholar_name": "", "department": "", "guide": "", "title_of_thesis": "", "year_of_registration":"", "year_of_phd_award":""}
+    },
+    {
+        "id": 17,
+        "questionid": "3_4_5",
+        "question": "Number of research papers per teacher in the Journals notified on UGC website during the year (Calender Year Jan-Dec 2020).",
+        "greenText": "<b>Documents Required</b>: Acceptance letter, Publication certificate; Direct link landing to UGC CARE/SCOPUS/WEB OF SCIENCE/INDIAN CITATION DATABASE indicating name of the journal, title of the article, affiliation,year and authors name.",
+        "redText": "Publication which does not reflect the University name under the author affiliation will not be considered.",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Title of paper", "field": "paper_title", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the author/s", "field": "author_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Department of the teacher", "field": "teacher_department", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of journal", "field": "journal_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of publication", "field": "year_of_publication", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "ISSN number", "field": "ISSN_number", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Link to the recognition in UGC enlistment of the Journal", "field": "ugc_recognition_url", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Presence in present UGC CARE list (YES / NO)", "field": "present_in_ugc", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Institutional affiliation as mentioned in the publication", "field": "Institutional_affiliation", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Number of citations excluding self citations", "field": "citations_number", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Citation Index", "field": "citation_index", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "H index", "field": "h_index", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "paper_title": "", "author_name": "", "teacher_department": "", "journal_name": "", "year_of_publication":"", "ISSN_number":"", "ugc_recognition_url":"", "present_in_ugc": "", "Institutional_affiliation": "", "citations_number": "", "citation_index": "", "h_index": ""}
+    },
+    {
+        "id": 18,
+        "questionid": "3_4_6",
+        "question": "Number of books and  chapters in edited volumes published per teacher during the year (Calender Year Jan-Dec 2020).<br>18.1 Total number of books and chapters in edited volumes / books published, and papers in national/international conference-proceedings during the year.",
+        "greenText": "<b>Documents Required</b>:  E-copy of the Cover page, content page and first page of the publication indicating ISBN number and year of publication for books/chapters and conference proceedings.<ul><li>Web-link of research papers by title, author, Department/ School/ Division/ Centre/ Unit/ Cell, name and year of publication</li></ul>",
+        "redText": "Publication claimed under 3.4.5 not to be included.<ul><li>Books with ISBN number only would be considered</li><li>Book’s publication year and publisher name should be mentioned</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the teacher", "field": "teacher_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Title of the book/chapters published", "field": "title_of_book", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Title of the paper", "field": "title_of_paper", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Title of the proceedings of the conference", "field": "title_of_proceeding_of_conference", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the conference", "field": "conference_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "National / International", "field": "national_international", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of publication", "field": "year_of_publication", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "ISBN/ISSN number of the proceeding", "field": "ISSN_number", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Affiliating Institute at the time of publication", "field": "Affiliating_institute", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the publisher", "field": "publisher_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "teacher_name": "", "title_of_book": "", "title_of_paper": "", "title_of_proceeding_of_conference": "", "conference_name":"", "national_international":"", "year_of_publication":"", "ISSN_number": "", "Affiliating_institute": "", "publisher_name": ""}
+    },
+    {
+        "id": 19,
+        "questionid": "3_4_7",
+        "question": "E-content is developed by teachers :<ol><li>For e-PG-Pathshala</li><li>For CEC (Under Graduate)</li><li>For SWAYAM</li><li>For other MOOCs platform</li><li>For NPTEL/NMEICT/any other Government Initiatives</li><li>For Institutional LMS</li></ol>",
+        "greenText": "<b>Documents Required</b>: <ul><li>Give links to upload document of e-content developed showing the authorship.</li><li>Supporting documents from the sponsoring agency for the e-content developed by the teachers need to be provided.   For institution LMS a summary of the e-content developed and the links to the e-content should be provided</li></ul>",
+        "redText": "Informal e-content will not be accepted<ul><li>Open Source e-content should not be included.</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the teacher", "field": "teacher_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the module developed", "field": "developed_module_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Platform on which module is developed (e-PG-Pathshala, / CEC (Under Graduate) / SWAYAM, / MOOCs platform, / NPTEL / NMEICT / any other Government Initiatives / For Institutional LMS)", "field": "developed_platform", "width": 700, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Date of launching e content", "field": "date_of_launching", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Link to the relevant document and facility available in the institution", "field": "url_available_in_institution", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "List of the e-content development facility available", "field": "econtent_development_facility", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Provide link to videos of the media centre and recording facility", "field": "url_of_media_centre", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "teacher_name": "", "developed_module_name": "", "developed_platform": "", "date_of_launching": "", "url_available_in_institution":"", "econtent_development_facility":"", "url_of_media_centre":""}
+    },
+    {
+        "id": 20,
+        "questionid": "3_4_8",
+        "question": "Bibliometrics of the publications during the year based on average Citation Index in Scopus/ Web of Science/PubMed (Calender Year Jan-Dec 2020)",
+        "greenText": "<ul><li>The data for this metric will be fetched by INFLIBNET directly</li><li>The HEI can seek clarification for the data given by INFLIBNET through the portal only.</li></ul>",
+        "redText": "",
+        "isTextArea": true
+    },
+    {
+        "id": 21,
+        "questionid": "3_4_9",
+        "question": "Bibliometrics of the publications during the year based on Scopus/ Web of Science – h-Index of the University  (Calender Year Jan-Dec 2020)",
+        "greenText": "<ul><li>The data for this metric will be fetched by INFLIBNET directly</li><li>The HEI can seek clarification for the data given by INFLIBNET through the portal only.</li></ul>",
+        "redText": "",
+        "isTextArea": true
+    },
+    {
+        "id": 22,
+        "questionid": "3_5_2",
+        "question": "Revenue generated from consultancy and corporate training during the year (INR in Lakhs)<br>22.1 Total amount generated from consultancy  and corporate training  year wise during the year (INR in lakhs)",
+        "greenText": "<b>Documents Required</b>: <ul><li>Audited statements of accounts indicating the revenue generated through consultancy and corporate training.</li><li>Letter from the corporate where training was imparted along with the fee paid.</li><li>CA certified copy of statement of accounts as attested by head of the institution.</li><li>Letter from the beneficiary of the consultancy along with details of the consultancy fee.</li></ul>",
+        "redText": "<ul><li>Grants received for research projects are not to be included.</li><li>Consultancy fee from any sister institution / same trust will not be considered.</li><li>The revenue generated by sharing the physical resources / by testing will not to be considered.</li><li>Revenue generated by training the students should not be included.</li></ul>",
+        "isMultipleTable": true,
+        "firstTableHeading": "Revenue generated from consultancy during the year",
+        "secondTableHeading": "Revenue generated from corporate training during the year",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the consultant", "field": "consultant_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of consultancy project", "field": "consultancy_project_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Consulting/Sponsoring agency with contact details", "field": "consulting_agency", "width": 700, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year", "field": "year", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Revenue generated (INR in Lakhs)", "field": "revenew_generated", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "consultant_name": "", "consultancy_project_name": "", "consulting_agency": "", "year": "", "revenew_generated":""},
+        "columnDefs2": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Names of the teacher-consultants/corporate trainers", "field": "teacher_consultant_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Title of the corporate training program", "field": "corporate_training_title", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Agency seeking training with contact details", "field": "Agency_details", "width": 700, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year", "field": "year", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Revenue generated (amount in rupees)", "field": "revenew_generated", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Number of trainees", "field": "no_of_trainees", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData2": {"serial_number": "", "teacher_consultant_name": "", "corporate_training_title": "", "Agency_details": "", "year": "", "revenew_generated":"", "no_of_trainees":""}
+    },
+    {
+        "id": 23,
+        "questionid": "3_6_1",
+        "question": "Extension activities in the neighbourhood community in terms of impact and  sensitising students to social issues and holistic development during the year.",
+        "greenText": "<b>Documents Required</b>: Letter of communication/aproval/permission, participants list,  Photo, proof of impact.",
+        "redText": "",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of  Extension activity", "field": "extension_activity", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Place of Conduction", "field": "place_of_conduction", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Describe the impact of extension activities in sensitising students to social issues and holistic development within 50 words", "field": "description", "width": 700, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "extension_activity": "", "place_of_conduction": "", "description": ""}
+    },
+    {
+        "id": 24,
+        "questionid": "3_6_2",
+        "question": "Number of awards received by the Institution, its teachers and students from Government /Government recognised bodies in recognition of the extension activities carried out  during the year<br>24.1 Total number of awards and recognition received for extension activities from Government / Government recognised bodies during the year <span class=black-text>(Awards received only to the extension activities carried out are to be included.)<span>",
+        "greenText": "<b>Documents Required</b>: Copies of award letters issued by the awarding agency.<ul><li>Any other relevant supporting document.</li></ul>",
+        "redText": "<ul><li>Awards claimed in 2.4.4 and 3.1.3 will not be considered here.</li><li>Awards that are local in nature will not be considered.</li><li>For Ex: Avoid awards from urban local bodies/ Panchayat etc.</li><li>Awards by individuals will not to be considered.</li><li>Awards from own trust / sister institutions not to be considered.</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the activity", "field": "activity_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Award/ recognition ", "field": "award_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the Awarding government/ government recognised bodies", "field": "awarding_government_name", "width": 700, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of award", "field": "year_of_award", "width": 700, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "activity_name": "", "award_name": "", "awarding_government_name": "", "year_of_award": ""}
+    },
+    {
+        "id": 25,
+        "questionid": "3_6_3",
+        "question": "Number of extension and outreach programs conducted  by the institution through NSS/NCC/Red cross/YRC etc. during the year ( including  Government initiated programs such as Swachh Bharat, Aids Awareness, Gender Issue, etc. and those organised in collaboration with industry, community and NGOs)",
+        "greenText": "<b>Documents Required</b>: Geo-tagged Photographs and any other supporting document of relevance should have proper captions and dates.<ul><li>Detailed report for each extension and outreach program to be made available, with specific mention of number of students participated and the details of the collaborating agency, Can be supplemented with Newspaper reports of events.</li></ul>",
+        "redText": "Events conducted for the benefit of their own students not to be included under outreach programs.",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the activity", "field": "activity_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Organising unit/ agency/ collaborating agency ", "field": "organising_unit", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the scheme", "field": "scheme_name", "width": 600, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of the activity", "field": "year_of_activity", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Number of students participated in such activities", "field": "no_of_student_participated", "width": 500, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "activity_name": "", "organising_unit": "", "scheme_name": "", "year_of_activity": "", "no_of_student_participated": ""}
+    },
+    {
+        "id": 26,
+        "questionid": "3_6_4",
+        "question": "Total number of students participating in extension activities listed at 3.6.3 above during the year",
+        "greenText": "<b>Documents Required</b>: Geo-tagged Photographs and any other supporting document of relevance should have proper captions and dates.<ul><li>Detailed report for each extension and outreach program to be made available, with specific mention of number of students participated and the details of the collaborating agency, Can be supplemented with Newspaper reports of events.</li></ul>",
+        "redText": "Events conducted for the benefit of their own students not to be included under outreach programs.",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Name of the activity", "field": "activity_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Organising unit/ agency/ collaborating agency ", "field": "organising_unit", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the scheme", "field": "scheme_name", "width": 600, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of the activity", "field": "year_of_activity", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Number of students participated in such activities", "field": "no_of_student_participated", "width": 500, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "activity_name": "", "organising_unit": "", "scheme_name": "", "year_of_activity": "", "no_of_student_participated": ""}
+    },
+    {
+        "id": 27,
+        "questionid": "3_7_1",
+        "question": "Number of collaborative activities with other institutions/ research establishment/industry for  research and academic development of faculty and students during the year<br>27.1 Total number of Collaborative activities with other institutions/ research establishment/industry for  research and  academic development of faculty and students during the year.",
+        "greenText": "<b>Documents Required</b>: Copies of documents indicating the collaboration/related documents indicating the nature of collaboration and activities year-wise; List of year wise activities and exchange should be provided",
+        "redText": "<ul><li>Collaboration to be valid and within the assessment period.</li><li>The collaboration activities for research and academic development of faculty and students facilitated through the mentioned collaboration only will be considered.</li><li>Activities mentioned under3.6.3, 3.7.2 and 3.7.3 not to be included here.</li><li>Collaborations with the sister institutions under the same Trust are not to be included.</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Title of the collaborative activity", "field": "title_of_collaborative_activity", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the collaborating agency with contact details", "field": "collaborating_agency_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the participant", "field": "participant_name", "width": 600, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of collaboration", "field": "year_of_collaboration", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Duration", "field": "duration", "width": 500, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Nature of the activity", "field": "Nature_of_activity", "width": 500, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Link to the relavant document", "field": "relevent_document_url", "width": 500, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "title_of_collaborative_activity": "", "collaborating_agency_name": "", "participant_name": "", "year_of_collaboration": "", "duration": "", "Nature_of_activity": "", "relevent_document_url": ""}
+    },
+    {
+        "id": 28,
+        "questionid": "3_7_2",
+        "question": "Number of functional MoUs with institutions/ industries  in India and abroad for internship, on-the-job training, project work, student / faculty exchange and  collaborative research  during the year.",
+        "greenText": "<b>Documents Required</b>: List of activities conducted under each MoU along with dates of starting and completion year-wise as endorsed by both parties<ul><li>E-copy of the MOUs indicating the objectives of the MOU as endorsed by both the partie</li></ul>",
+        "redText": "<ul><li>The MoU should be functional during the assessment period</li><li>If the MoU is for three years viz 2011-2013, it shall be counted only once.</li><li>At least one activity should have been conducted under an MOU to qualify as a functional MOU</li><li>MOU’s with the sister institutions under the same Trust are not to be included.</li><li>Certificates issued by external agencies to students/Faculty for research/Faculty exchange/Student exchange/ internship cannot be the proof for having collaboration with the external agency</li></ul>",
+        "columnDefs": [
+            {"headerName": "S.No.", "field": "serial_number", "width": 100},
+            {"headerName": "Organisation with which MoU is signed", "field": "Organisation_with_mou", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Name of the institution/ industry/ corporate house", "field": "institution_name", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Year of signing MoU", "field": "year_of_signing_mou", "width": 600, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Duration", "field": "duration", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "List the  actual  activities under each MOU year wise", "field": "activities_under_mou", "width": 500, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
+            {"headerName": "Number of students/teachers participated under MoUs", "field": "participants_count", "width": 500, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
+        ],
+        "rowData": {"serial_number": "", "Organisation_with_mou": "", "institution_name": "", "year_of_signing_mou": "", "duration": "", "activities_under_mou": "", "participants_count": ""}
+    }
+]

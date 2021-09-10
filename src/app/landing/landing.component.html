@@ -1,0 +1,45 @@
+<div class="back-drop" *ngIf="isSpinner">
+    <div class="loader"></div>
+</div>
+<div>
+    <button class="btn btn-primary logout" (click)="logout()">Logout</button>
+</div>
+<div class="questionnairebody">
+    <div class="questionbody">
+        <span class="id">{{id}}.</span>
+        <span class="question" [innerHtml]="question"></span>
+    </div>
+    <div class="greenText">
+        <span [innerHtml]="greenText"></span>
+    </div>
+    <div class="redText">
+        <span [innerHtml]="redText"></span>
+    </div>
+</div>
+<div class="grid-section">
+    <app-grid *ngIf="!isTextArea" [tableType]="firstTable" [id]="id" [columnDefs]="columnDefs" [rowData]="rowData" [defaultRow]="defaultRow" [tableHeading]="firstTableHeading"></app-grid>
+    <app-grid *ngIf="!isTextArea && isMultipleTable" [tableType]="secondTable" id="{{id}}_2" [columnDefs]="columnDefs2" [rowData]="rowData2" [defaultRow]="defaultRow2" [tableHeading]="secondTableHeading"></app-grid>
+    <textarea *ngIf="isTextArea" style="width: 100%; height: 150px;" [(ngModel)]="rowData" name="message" maxlength="150" ></textarea>
+</div>
+<div class="questionnaire-btn">
+    <span>
+        <input #file type="file" class="input-file" (click)="file.value = null" (change)="upload($event)">
+        <button class="btn btn-primary upload-btn" (click)="file.click()">Upload file</button>
+    </span>
+    <span class="prev-next">
+        <span class="error-text" *ngIf="isError">Please fill all the fields</span>
+        <button class="btn btn-primary previous" [disabled]="isPrevDisabled" (click)="previous()">Previous</button>
+        <button class="btn btn-primary next" *ngIf="!isLastQues" (click)="next()">Save & Next</button>
+        <button class="btn btn-primary next" *ngIf="isLastQues" (click)="save()">Save</button>
+    </span>
+</div>
+<ng-container *ngIf="filesArray.length > 0">
+    <span>
+      <ul><li *ngFor="let file of filesArray; let i = index">{{file.name}}<span class="delete-btn" (click)="delete($event, i)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+          </svg>
+      </span></li></ul>
+    </span>
+  </ng-container>

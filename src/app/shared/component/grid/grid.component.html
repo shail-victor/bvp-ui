@@ -1,0 +1,12 @@
+<div class="add-row" [ngClass]="tableType=='second-table'?'second-table' : 'first-table'">
+    <button class="btn btn-primary clear-btn" (click)="clear()">Clear Unsaved</button>
+    <button class="btn btn-primary add-btn" (click)="addRow()">Add Row</button>
+</div>
+<div style="display: table; height: 40px; overflow: hidden; width: 100%;" *ngIf="tableHeading"><div class="table-heading" style="display: table-cell; vertical-align: middle;">{{tableHeading}}</div></div>
+<div *ngIf="rowData">
+    <ag-grid-angular class="ag-theme-material t-bomarch-table" style="width: 100%; height: 350px;"
+        [columnDefs]="columnDefs" [rowData]="rowData" (gridReady)="onGridReady($event)"
+        [stopEditingWhenGridLosesFocus]="true" [suppressRowClickSelection]="true" [frameworkComponents]="frameworkComponents"
+        [defaultColDef]="defaultColDef">
+    </ag-grid-angular>
+</div>
