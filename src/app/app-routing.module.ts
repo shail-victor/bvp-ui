@@ -7,6 +7,7 @@ import { ReportComponent } from './report/report.component';
 import { AuthGuard } from './shared/auth.guard'; 
 const routes: Routes = [
   { path: '', component: LoginComponent },
+  { path: '/', component: LoginComponent },
   { path: 'login', component: LoginComponent },
   { path: 'registration', component: RegistrationComponent },
   { path: 'landing/:id', component: LandingComponent, canActivate: [AuthGuard] },
