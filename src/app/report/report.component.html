@@ -1,0 +1,37 @@
+<div class="back-drop" *ngIf="isSpinner">
+    <div class="loader"></div>
+</div>
+<div>
+    <button class="btn btn-primary logout" (click)="logout()">Logout</button>
+</div>
+<div class="report-heading">
+    Download Report
+</div>
+<div class="download-section">
+    <div class="row">
+        <div class="col-lg-4 select-section">
+            <div class="section-heading">College</div>
+            <div class="drop-down">
+                <select class="form-control" (change)="onUserValueChange($event)">
+                    <option value="" disabled selected>Select College</option>
+                    <option *ngFor="let users of userList">{{users.co_ordinator}}</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-lg-4 select-section">
+            <div class="section-heading">Year</div>
+            <div class="year-drop-down">
+                <select class="form-control" (change)="onYearValueChange($event)">
+                    <option value="" disabled selected>Select Year</option>
+                    <option *ngFor="let years of yearList">{{years}}</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-lg-4 select-section">
+            <div class="section-heading">Download</div>
+            <div class="button-section">
+                <button class="btn btn-primary download" [disabled]="isDownloadDisabled" (click)="downloadReport()">Download</button>
+            </div>
+        </div>
+    </div>
+</div>

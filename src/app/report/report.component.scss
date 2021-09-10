@@ -1,0 +1,42 @@
+.logout {
+    float: right;
+    margin: 15px 50px;
+}
+
+.report-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 75px 50px 20px 50px;
+}
+
+.download-section {
+    padding: 10px 50px;
+    .select-section {
+        text-align: center;
+        .button-section {
+            margin-top: 20px;
+            .download:disabled {
+                pointer-events: none;
+            }
+        }
+        .drop-down {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .form-control {
+            width: 100% !important;
+        }
+        .section-heading {
+            font-size: 20px;
+            font-weight: bold;   
+        }
+    }
+}
+
+.year-drop-down {
+    width: 50%;
+    margin-left: 25% !important;
+    margin-top: 20px;
+}
