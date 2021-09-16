@@ -174,7 +174,7 @@
             {"headerName": "Year", "field": "year", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
             {"headerName": "Name of the workshop/ seminar", "field": "workshop_name", "width": 400, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
             {"headerName": "Number of Participants", "field": "participants_number", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
-            {"headerName": "Date From – To (DD/MM/YYYY)", "field": "date_from_to", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text", "resizable": true, "cellEditor": "DatepickerComponent"},
+            {"headerName": "Date From – To (DD/MM/YYYY)", "field": "date_from_to", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text", "resizable": true},
             {"headerName": "Link to the Activity report on the website", "field": "activity_report_url", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"},
             {"headerName": "Date of establishment of IPR cell", "field": "date_of_establishment", "width": 300, "editable": true, "autoHeight": true, "cellClass": "cell-wrap-text"}
         ],
