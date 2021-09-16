@@ -49,7 +49,7 @@
                 <label for="role">Role</label>
                 <select class="form-control" id="country" formControlName="role" [ngClass]="{ 'is-invalid': submitted && f.role.errors }">
                     <option value="Coordinator">Coordinator</option>
-                    <option value="Coordinator">Director</option>
+                    <option value="Director">Director</option>
                 </select>
                 <div *ngIf="submitted && f.role.errors" class="invalid-feedback">
                     <div *ngIf="f.role.errors.required">Role is required</div>
