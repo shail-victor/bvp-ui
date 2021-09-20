@@ -122,8 +122,8 @@ export class LandingComponent implements OnInit {
     let body;
     let body2;
     if (this.id === 22) {
-      this.rowData = this.userService.getData();
-      this.rowData2 = this.userService.getSecondData();
+      // this.rowData = this.userService.getData();
+      // this.rowData2 = this.userService.getSecondData();
       this.rowData.forEach(element => {
         element['q_no'] = this.id.toString()+ '_1';
         element['user_id'] = localStorage.getItem('user_id');
