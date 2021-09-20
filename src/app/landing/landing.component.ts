@@ -121,10 +121,7 @@ export class LandingComponent implements OnInit {
     let dataEmpty = [];
     let body;
     let body2;
-    if (this.id === 20 || this.id === 21) {
-      body = [{"description": this.rowData, "q_no": this.id.toString(),
-      "user_id": localStorage.getItem('user_id')}]
-    } else if (this.id === 22) {
+    if (this.id === 22) {
       this.rowData = this.userService.getData();
       this.rowData2 = this.userService.getSecondData();
       this.rowData.forEach(element => {
@@ -315,11 +312,7 @@ export class LandingComponent implements OnInit {
         console.log(resp);
         this.isSpinner = false;
         if(resp.length > 0) {
-          if(this.id === 20 || this.id === 21) {
-            this.rowData = resp[0]['description'];
-          } else {
             this.rowData = resp;
-          }
         }
       }, error => {
         this.isSpinner = false;
